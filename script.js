@@ -49,3 +49,4 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
+document.getElementById('currentYear').textContent = new Date().getFullYear();
